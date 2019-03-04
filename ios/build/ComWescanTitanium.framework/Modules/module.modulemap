@@ -1,0 +1,11 @@
+framework module ComWescanTitanium {
+  umbrella header "ComWescanTitanium.h"
+
+  export *
+  module * { export * }
+}
+
+module ComWescanTitanium.Swift {
+    header "ComWescanTitanium-Swift.h"
+    requires objc
+}

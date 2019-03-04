@@ -1,0 +1,11 @@
+framework module WeScan {
+  umbrella header "WeScan.h"
+
+  export *
+  module * { export * }
+}
+
+module WeScan.Swift {
+    header "WeScan-Swift.h"
+    requires objc
+}
